@@ -17,7 +17,7 @@ const MapSection = () => {
 
     if (!window.google) {
       const script = document.createElement('script');
-      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyCFG_euU3kEw8GZTU9GcbdZkbkvNg903lo`;
+      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyCFG_euU3kEwdZkbkvNg903lo`;
       script.onload = loadMap;
       document.head.appendChild(script);
     } else {

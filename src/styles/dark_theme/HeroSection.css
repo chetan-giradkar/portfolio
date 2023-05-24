@@ -1,0 +1,70 @@
+.hero-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* background-image: url('hero-background.jpg'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero-content {
+  margin-bottom: 40px;
+  color: #e0e0e0; /* Lighter gray text on dark background */
+}
+.cta-button {
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #03DAC5; /* A bright, Material accent color */
+  color: #121212; /* Dark color for contrast */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.cta-button:hover {
+  background-color: #018786; /* A darker shade of the original accent color for hover state */
+}
+.scroll-down i {
+  font-size: 24px;
+  color: #e0e0e0; /* Consistent with .hero-content text color */
+  animation: scroll-down-animation 1s infinite;
+}
+
+@keyframes scroll-down-animation {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

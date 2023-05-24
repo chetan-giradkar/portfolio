@@ -1,0 +1,41 @@
+.timeline-container {
+    margin-top: 40px;
+  }
+  
+  .timeline-event {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+  
+  .event-year {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .event-details {
+    flex: 1;
+  }
+  
+  .event-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .event-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .event-info {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  
+  .event-info li {
+    margin-bottom: 5px;
+  }
+  

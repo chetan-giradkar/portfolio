@@ -1,0 +1,49 @@
+/* Define a fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply the fade-in animation to elements with the "fade-in" class */
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Define a slide-in animation from the left */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Apply the slide-in animation to elements with the "slide-in-left" class */
+.slide-in-left {
+  animation: slideInLeft 1s ease-in-out;
+}
+
+/* Define a bounce animation */
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Apply the bounce animation to elements with the "bounce" class */
+.bounce {
+  animation: bounce 0.5s infinite;
+}

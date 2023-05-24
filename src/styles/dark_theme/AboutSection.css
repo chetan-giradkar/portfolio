@@ -1,0 +1,60 @@
+body {
+    background-color: #121212; /* Material dark background color */
+    color: #e0e0e0; /* Material light on dark text color */
+}
+
+.about-section {
+    padding: 80px 0;
+    background-color: #1e1e1e; /* A bit lighter than body background */
+}
+
+.about-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff; /* White text for headings */
+}
+
+.timeline-container {
+    margin-top: 40px;
+    background-color: #1e1e1e; /* Consistent with .about-section */
+}
+
+.timeline-event {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.event-year {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #f5f5f5; /* Slightly off-white for differentiation */
+}
+
+.event-details {
+    flex: 1;
+}
+
+.event-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffffff; /* White text for event title */
+}
+
+.event-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #b3b3b3; /* Softer grey for description to decrease focus */
+}
+
+.event-info {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.event-info li {
+    margin-bottom: 5px;
+}
